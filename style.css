@@ -1,0 +1,118 @@
+body{
+    background-image: url("PHOTOS/BackGround\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(60, 179, 113), blue;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+}.header {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    /*padding: 20px 10px;*/
+  }
+  
+  .header img{
+    height: 50px;
+    width: 50px;
+  }
+  
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: rgb(88, 3, 3);
+    color: rgb(0, 0, 0);
+  }
+  
+  .header a.active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Float the link section to the right */
+  .header-Right {
+    float: right;
+  }
+
+  .footer{
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(57, 10, 165);
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  #content{
+    color: maroon;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 75px;
+  }
+  .hehe{
+    font-family: "Dancing Script", cursive;
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/274973/pexels-photo-274973.jpeg?cs=srgb&dl=pexels-pixabay-274973.jpg&fm=jpg);
+  }
+  .intro{
+    
+    border: 10px;
+    border-color: black;
+  }
+  .webimage{
+    height: 400px;
+    padding-left: 70px;
+  }
+  .title{
+
+    text-align: center;
+    font-family: monospace;
+    margin: 50px;
+
+ }
+ .applet-flex-container{
+   
+   justify-content: center;
+   display:flex;
+   margin-left: 3rem;
+   
+  
+
+ }
+ .applet-flex-container > div {
+   margin-left: 15px;
+ }
+ body{
+   background-color: aqua;
+ }
+.services{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
